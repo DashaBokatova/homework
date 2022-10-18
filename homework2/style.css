@@ -1,0 +1,39 @@
+.desk1{
+    background-color: cornflowerblue;
+    width: 900px;
+    height: 350px;
+    color: whitesmoke;
+    font-size: 50px;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+}
+.desk2{
+    display: flex;
+    justify-content:space-between;
+    width: 900px;
+    margin: 30px auto 30px auto;
+}
+.desk3{
+    width: 200px;
+    height: 250px;
+    background-color: #2a4083;
+    color: whitesmoke;
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    margin: 0 auto;
+}
+.desk4{
+    background-color: cornflowerblue;
+    width: 900px;
+    height: 350px;
+    color: whitesmoke;
+    font-size: 50px;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+
+}
