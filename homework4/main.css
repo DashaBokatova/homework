@@ -1,0 +1,62 @@
+.blockA{
+width:1250px ;
+    height:200px ;
+    background: silver;
+    padding-top: 20px;
+}
+@media screen and (min-width: 0) and (max-width: 600px) {
+    .blockA {
+        width: 400px;
+        height: 100px;
+        -webkit-border-radius: 10px;
+        -moz-border-radius: 10px;
+        border-radius: 10px;
+    }
+}
+ .conteiner{
+     display: flex;
+     column-gap: 10px;
+     padding-top: 10px;
+ }
+ @media screen and (min-width: 0) and (max-width: 600px){
+   .conteiner {
+     flex-direction: column;
+       padding-top: 15px;
+
+   }
+ }
+
+.blockB{
+    width: 1000px;
+    height: 400px;
+    background: gray;
+}
+@media screen and (min-width: 0) and (max-width: 600px){
+   .blockB {
+       width: 400px;
+       height: 400px;
+       -moz-border-radius: 10px;
+       -moz-border-radius: 10px;
+       border-radius: 10px;
+   }
+}
+
+
+.blockC{
+width: 240px;
+    height: 400px;
+    background: darkgrey;
+
+}
+@media screen and (min-width: 0) and (max-width: 600px){
+    .blockC{
+        width: 400px;
+        height: 100px;
+        -moz-border-radius: 10px;
+        -moz-border-radius: 10px;
+        border-radius: 10px;
+        margin-top: 15px;
+
+
+    }
+}

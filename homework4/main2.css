@@ -1,0 +1,90 @@
+.blockA{
+    width: 1250px;
+    height: 200px;
+    background: cornflowerblue;
+    padding-top: 20px;
+}
+@media screen and (min-width: 0) and (max-width: 600px) {
+    .blockA {
+        width: 400px;
+        height: 100px;
+        -webkit-border-radius: 10px;
+        -moz-border-radius: 10px;
+        border-radius: 10px;
+    }
+}
+.blockB{
+    width: 1004px;
+    height: 200px;
+    background: blue;
+    margin-top: 10px;
+}
+@media screen and (min-width: 0) and (max-width: 600px) {
+    .blockB{
+        width: 400px;
+        height: 200px;
+        -webkit-border-radius: 10px;
+        -moz-border-radius: 10px;
+        border-radius: 10px;
+    }
+
+}
+.father{
+display: flex;
+    column-gap: 13px;
+
+
+
+}
+@media screen and (min-width: 0) and (max-width: 600px) {
+    .father{
+        column-gap: 64px;
+    }
+}
+.mini{
+    width:326px ;
+    height:200px ;
+    background:darkblue;
+    margin-top: 10px;
+}
+@media screen and (min-width: 0) and (max-width: 600px) {
+    .mini{
+        width: 90px;
+        height: 90px;
+        -webkit-border-radius: 10px;
+        -moz-border-radius: 10px;
+        border-radius: 10px;
+
+    }
+}
+.father2{
+    position: relative;
+}
+@media screen and (min-width: 0) and (max-width: 600px) {
+    .father2{
+
+    }
+}
+
+.blockF{
+    width: 240px;
+    height: 410px;
+    background: dodgerblue;
+margin-left: 1010px;
+    position: relative;
+    top: -410px;
+
+}
+@media screen and (min-width: 0) and (max-width: 600px) {
+    .blockF{
+        width: 400px;
+        height: 100px;
+        -webkit-border-radius: 10px;
+        -moz-border-radius: 10px;
+        border-radius: 10px;
+        flex-direction: column;
+        margin-left: 0px;
+        margin-top: 420px;
+
+    }
+}
